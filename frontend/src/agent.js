@@ -82,7 +82,6 @@ const Profile = {
   unfollow: (username) => requests.del(`/profiles/${username}/follow`),
 };
 
-
 const agentObj = {
   Items,
   Auth,
